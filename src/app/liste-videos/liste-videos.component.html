@@ -1,0 +1,9 @@
+<div class="flex">
+    <app-sidenav></app-sidenav>
+    <div class="">
+        <app-chips></app-chips>
+        <div class="flex petite-video">
+            <app-petite-video class="petite-video_item" *ngFor="let v of videos" [video]="v"></app-petite-video>
+        </div>
+    </div>
+</div>

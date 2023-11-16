@@ -1,0 +1,11 @@
+.date_publication, .duree, .vues, .score {  
+    width: 50%;
+    font-weight: bold;
+}
+.duree, .score{
+    text-align: right;
+}
+.image{
+    width : 200px;
+    height : 100px;background-color: blueviolet;
+}

@@ -1,0 +1,11 @@
+.video_complete{ 
+    padding: 40px;
+}
+
+.date, .vues, .duree, .score{ 
+    padding: 0 10px;
+    font-weight: bold;
+ }
+.duree, .score{ 
+    text-align: right;
+ }

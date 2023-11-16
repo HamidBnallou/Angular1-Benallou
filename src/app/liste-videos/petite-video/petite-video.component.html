@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-content>
+        <div class="image">
+            <app-image [image]="video?.image"></app-image>
+        </div>
+        
+        <app-nom class="" [nom]="video?.nom"></app-nom>
+        <div class="flex">
+            <app-date class="date_publication" [date_publication]="video?.date_publication"></app-date>
+            <app-duree class="duree" [duree]="video?.duree"></app-duree>
+        </div>
+        <div class="flex">
+            <app-vues class="vues" [nombre_vues]="video?.nombre_vues"></app-vues>
+            <app-score class="score" [score]="video?.score"></app-score>
+        </div>
+        <app-utilisateur [utilisateur]="video?.utilisateur"></app-utilisateur>
+    </mat-card-content>
+</mat-card>
